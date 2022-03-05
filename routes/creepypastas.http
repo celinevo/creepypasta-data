@@ -1,0 +1,27 @@
+###
+GET http://localhost:5555/creepypastas
+
+###
+GET http://localhost:5555/creepypastas/id
+
+###
+POST http://localhost:5555/creepypastas
+Content-Type: application/json
+
+{
+"title": "",
+"text": "",
+"image": ""
+}
+
+###
+PATCH http://localhost:5555/creepypastas/id
+Content-Type: application/json
+
+{
+"title": ""
+}
+
+
+###
+DELETE http://localhost:5555/creepypastas/id
